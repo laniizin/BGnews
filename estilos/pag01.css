@@ -1,0 +1,152 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Phudu:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Phudu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300&family=Phudu:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300&family=Open+Sans:wght@300&family=Phudu:wght@300&family=Poppins:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+:root {
+    --fonte1: Verdana, Geneva, tahoma, sans-serif;
+    --fonte2:'Open Sans', sans-serif;
+    --fonte3: 'Phudu', cursive;
+    --fonte4: 'Bebas Neue', sans-serif;
+    --fonte5: 'Inter', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: linear-gradient(to top, #6B12A6, #1D1340, #590D8C);
+}
+h1{
+    background-color: black;
+    color: white;
+    font-family: var(--fonte4);
+    padding-left: 10px;
+}
+span{
+    padding-left: 94.5%;
+    color: white;
+}
+i{
+    color: white;
+    padding-left: 10px;
+}
+menu{
+    display: none;
+    text-align: left;
+
+}
+menu > ul{
+    list-style-type: none;
+    font-family: var(--fonte5);
+    
+}
+menu a{
+display: block;
+padding: 10px;
+text-decoration: none;
+background-color: rgba(0, 0, 0, 0.637);
+color: white;
+border-top: 2px solid rgb(0, 0, 0);}
+menu a:hover{
+    background-color: rgb(40, 13, 53);
+}
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+section#destaque1{
+    background-color: grey;
+    background-image: url(https://www.drcommodore.it/wp-content/uploads/2023/08/Screenshot-2023-08-21-at-17-24-3-min.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 65px;
+}
+h2{
+    font-family: var(--fonte5);
+    text-align: center;
+    font-size: 1em;
+}
+h2#destaque-mais{
+    text-align: left;
+    font-size: 1.5em;
+    font-family: var(--fonte3);
+}
+article#principal{
+    display: block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.514);
+    width: 450px;
+    padding: 10px;
+    text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.644);
+    border-radius: 5px;
+    text-align: justify;
+    font-family: var(--fonte5);
+    font-size: 1.5em;
+}
+article > h3{
+    text-align: center;
+}
+article > p > a{
+    text-decoration: none;
+    color: wheat;
+}
+
+div#jogo1{
+    background-image: url(https://psxbrasil.com.br/wp-content/uploads/2023/09/spiderss-1.jpg);
+    background-size: cover;
+    background-position:center;
+}
+div#jogo2{
+    background-image: url(https://static.wikia.nocookie.net/liberproeliis/images/5/52/BriarBase.jpg/revision/latest?cb=20230918151310&path-prefix=pt-br);
+    background-size: cover;
+    background-position: center left;
+    background-repeat: no-repeat;
+}
+div#jogo3{
+    background-image: url(../imagens/apostas.webp);
+    background-size: cover;
+    background-position:center;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: var(--fonte5);
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
+}
+div#jogo1 > p{
+    padding-top: 450px;
+}
+div#jogo2 > p{
+    padding-top: 450px;
+}
+div#jogo3 > p{
+    padding-top: 450px;
+}
+div.noticias{
+    display: inline-block;
+    border: 1px solid grey;
+    width: 350px;
+    height: 550px;
+    left: 10%;
+    right: 10%;
+    position: relative;
+   text-align: center;
+   color: azure;
+}
+article#mais{
+    display: block;
+    color: white;
+    padding: 10px;
+    text-align: justify;
+    font-family: var(--fonte4);
+    font-size: 1.8em;
+    
+}
