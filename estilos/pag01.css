@@ -70,10 +70,12 @@ h2{
     text-align: center;
     font-size: 1em;
 }
-h2#destaque-mais{
+h2#h21{
+    font-family: var(--fonte5);
+    color: white;
+    font-size: 1em;
     text-align: left;
-    font-size: 1.5em;
-    font-family: var(--fonte3);
+    margin-bottom: 20px;
 }
 article#principal{
     display: block;
@@ -159,4 +161,50 @@ div.number1{
 }
 iframe{
     margin-left: 170px;
+}
+div.extra2{
+    display: flex;
+    align-items: flex-end;
+    background-color: white;
+    border: 1px solid rgba(255, 255, 255, 0.507);
+    border-radius: 2px;
+    height: 300px;
+    width: 600px;
+    margin: 25px;
+}
+div.extra2 > p{
+    background-color: black;
+    color: white;
+    width: 600px;
+    height: 115px;
+    font-family: var(--fonte2);
+    font-size: 1em;
+    text-align: justify;
+    padding: 10px;
+}
+div#e1{
+    background-image: url(../imagens/havoc.jpg);
+   
+    background-size: contain;
+}
+div#e2{
+    background-image: url(../imagens/marved.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+div#e3{
+    background-image: url(../imagens/frod.png);
+    background-position: center;
+    background-size: cover;
+}
+div#e4{
+    background-image: url(../imagens/aspas.jpg);
+    background-size: cover;
+    background-position: center;
+}
+h2#h22{
+    font-family: var(--fonte5);
+    color: white;
+    font-size: 2em;
+    text-align: left;
 }
