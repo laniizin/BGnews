@@ -16,7 +16,7 @@
     padding: 0px;
 }
 body{
-    background-image: linear-gradient(to top, #6B12A6, #1D1340, #590D8C);
+    background-image: linear-gradient(black, #3b002a,#1d1622);
 }
 h1{
     background-color: black;
@@ -59,7 +59,7 @@ section{
 }
 section#destaque1{
     background-color: grey;
-    background-image: url(https://www.drcommodore.it/wp-content/uploads/2023/08/Screenshot-2023-08-21-at-17-24-3-min.png);
+    background-image: url(https://nintendoeverything.com/wp-content/uploads/Cult-of-the-Lamb.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -96,7 +96,7 @@ article > p > a{
 }
 
 div#jogo1{
-    background-image: url(https://psxbrasil.com.br/wp-content/uploads/2023/09/spiderss-1.jpg);
+    background-image: url(../imagens/poster-td.jpg);
     background-size: cover;
     background-position:center;
 }
@@ -135,11 +135,12 @@ div.noticias{
     border: 1px solid grey;
     width: 350px;
     height: 550px;
-    left: 10%;
+    left: 5%;
     right: 10%;
     position: relative;
    text-align: center;
    color: azure;
+   margin-left: 35px ;
 }
 article#mais{
     display: block;
@@ -149,4 +150,13 @@ article#mais{
     font-family: var(--fonte4);
     font-size: 1.8em;
     
+    
+}
+div.number1{
+    display: flex;
+    align-items: center;
+   
+}
+iframe{
+    margin-left: 170px;
 }
