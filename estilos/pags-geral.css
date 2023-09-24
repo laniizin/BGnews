@@ -43,12 +43,12 @@ menu > ul{
     
 }
 menu a{
-display: block;
-padding: 10px;
-text-decoration: none;
-background-color: rgba(0, 0, 0, 0.637);
-color: white;
-border-top: 2px solid rgb(0, 0, 0);}
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.637);
+    color: white;
+    border-top: 2px solid rgb(0, 0, 0);}
 menu a:hover{
     background-color: rgb(40, 13, 53);
 }
@@ -64,6 +64,26 @@ h2{
     font-family: var(--fonte3);
     font-size: 2.5em;
 }
+div.grade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.grade2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.grade3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.grade4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 div.qgeral{
     display: flex;
     align-items: center;
@@ -73,7 +93,6 @@ div.qgeral{
     height: 300px;
     margin-bottom: 40px;
     margin-left: 15px;
-
 }
 div#n1{
     color: white;

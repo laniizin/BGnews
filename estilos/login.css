@@ -15,6 +15,40 @@ body{
     height: 100vh;
     width: 100vw;
 }
+h1{
+    background-color: black;
+    color: white;
+    font-family: var(--fonte4);
+    padding-left: 10px;
+}
+span{
+    padding-left: 93%;
+    color: white;
+}
+i{
+    color: white;
+    padding-left: 10px;
+}
+menu{
+    display: none;
+    text-align: left;
+
+}
+menu > ul{
+    list-style-type: none;
+    font-family: var(--fonte5);
+    
+}
+menu a{
+display: block;
+padding: 10px;
+text-decoration: none;
+background-color: rgba(0, 0, 0, 0.637);
+color: white;
+border-top: 2px solid rgb(0, 0, 0);}
+menu a:hover{
+    background-color: rgb(40, 13, 53);
+}
 main{
     position: relative;
     height: 100vh;
@@ -99,6 +133,14 @@ div.campo > input{
     margin-left: 42px;
     
 }
+div#formulario{
+    padding: 10px;
+}
+div.geral{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 footer{
     background-color: black;
     text-align: center;
@@ -108,38 +150,4 @@ footer{
 footer > p > a{
     text-decoration: none;
     color: white;
-}
-h1{
-    background-color: black;
-    color: white;
-    font-family: var(--fonte4);
-    padding-left: 10px;
-}
-span{
-    padding-left: 93%;
-    color: white;
-}
-i{
-    color: white;
-    padding-left: 10px;
-}
-menu{
-    display: none;
-    text-align: left;
-
-}
-menu > ul{
-    list-style-type: none;
-    font-family: var(--fonte5);
-    
-}
-menu a{
-display: block;
-padding: 10px;
-text-decoration: none;
-background-color: rgba(0, 0, 0, 0.637);
-color: white;
-border-top: 2px solid rgb(0, 0, 0);}
-menu a:hover{
-    background-color: rgb(40, 13, 53);
 }

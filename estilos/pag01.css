@@ -67,7 +67,7 @@ section#destaque1{
 }
 h2{
     font-family: var(--fonte5);
-    text-align: center;
+    text-align: left;
     font-size: 1em;
 }
 h2#h21{
@@ -81,7 +81,8 @@ article#principal{
     display: block;
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
-    width: 450px;
+    width: 560px;
+    height: 315px;
     padding: 10px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.644);
     border-radius: 5px;
@@ -89,23 +90,32 @@ article#principal{
     font-family: var(--fonte5);
     font-size: 1.5em;
 }
-article > h3{
+article > div.v1 > h3{
     text-align: center;
 }
-article > p > a{
+article >div.v1 > p > a{
     text-decoration: none;
     color: wheat;
 }
-
+article#principal > div.v1 > p{
+    font-size: 0.8em;
+}
+div.number1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.v1{   
+}
 div#jogo1{
     background-image: url(../imagens/poster-td.jpg);
     background-size: cover;
     background-position:center;
 }
 div#jogo2{
-    background-image: url(https://static.wikia.nocookie.net/liberproeliis/images/5/52/BriarBase.jpg/revision/latest?cb=20230918151310&path-prefix=pt-br);
+    background-image: url(../imagens/briar.jpg);
     background-size: cover;
-    background-position: center left;
+    background-position: center;
     background-repeat: no-repeat;
 }
 div#jogo3{
@@ -113,16 +123,7 @@ div#jogo3{
     background-size: cover;
     background-position:center;
 }
-footer{
-    background-color: black;
-    text-align: center;
-    color: white;
-    font-family: var(--fonte5);
-}
-footer > p > a{
-    text-decoration: none;
-    color: white;
-}
+
 div#jogo1 > p{
     padding-top: 450px;
 }
@@ -132,17 +133,18 @@ div#jogo2 > p{
 div#jogo3 > p{
     padding-top: 450px;
 }
+div.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 div.noticias{
     display: inline-block;
     border: 1px solid grey;
     width: 350px;
     height: 550px;
-    left: 5%;
-    right: 10%;
-    position: relative;
-   text-align: center;
-   color: azure;
-   margin-left: 35px ;
+    color: azure;
+    margin: 5px;
 }
 article#mais{
     display: block;
@@ -161,6 +163,26 @@ div.number1{
 }
 iframe{
     margin-left: 170px;
+}
+div.grade{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.grade2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.grade3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.grade4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 div.extra2{
     display: flex;
@@ -182,6 +204,7 @@ div.extra2 > p{
     text-align: justify;
     padding: 10px;
 }
+
 div#e1{
     background-image: url(../imagens/havoc.jpg);
    
@@ -206,5 +229,15 @@ h2#h22{
     font-family: var(--fonte5);
     color: white;
     font-size: 2em;
-    text-align: left;
+    text-align: center;
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-family: var(--fonte5);
+}
+footer > p > a{
+    text-decoration: none;
+    color: white;
 }
