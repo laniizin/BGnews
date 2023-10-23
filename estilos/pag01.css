@@ -67,26 +67,20 @@ section#destaque1{
 }
 h2{
     font-family: var(--fonte5);
-    text-align: left;
+    text-align: center;
     font-size: 1em;
 }
-h2#h21{
-    font-family: var(--fonte5);
-    color: white;
-    font-size: 1em;
-    text-align: left;
-    margin-bottom: 20px;
-}
+
 article#principal{
     display: block;
     color: white;
     background-color: rgba(0, 0, 0, 0.514);
     width: 560px;
-    height: 315px;
+    height: 295px;
     padding: 10px;
     text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.644);
-    border-radius: 5px;
-    text-align: justify;
+    border-radius: 2px;
+    text-align: left;
     font-family: var(--fonte5);
     font-size: 1.5em;
 }
@@ -105,7 +99,9 @@ div.number1{
     justify-content: center;
     align-items: center;
 }
-div.v1{   
+div.v1{ 
+    width= 560px; 
+    height= 315px;
 }
 div#jogo1{
     background-image: url(../imagens/poster-td.jpg);
